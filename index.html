@@ -12,10 +12,17 @@
         <title>trillo &mdash; Your all-in-one booking app</title>
     </head>
     <body>
+
+<!-- MAIN CONTAINER -->
+
         <div class="container">
+
+<!-- HEADER  -->
+            
             <header class="header">
                 <img src="img/logo.png" alt="trillo logo " class="logo">
 
+<!-- SEARCH BAR -->
                 <form action="#" class="search">
                     <input type="text" class="search__input" placeholder="Search hotels">
                     
@@ -26,6 +33,7 @@
                     </button>
                 </form>
 
+<!-- USER NAVIGATION -->
                 <nav class="user-nav">
 
                     <div class="user-nav__icon-box">
@@ -48,8 +56,16 @@
                     </div>
 
                 </nav>
+
+<!-- END USER NAVIGATION -->
+
             </header>
+
+<!-- END HEADER -->
+
+<!-- CONTENT -->
             <div class="content">
+<!-- SIDE NAVIGATION -->
                 <nav class="sidebar">
 
                     <ul class="side-nav">
@@ -86,16 +102,147 @@
                             </a>
                         </li>    
                     </ul>
+<!-- LEGAL TEXT -->
                     <div class="legal">
                         <p>&copy; 2018 by Trillo.</p>
                         <p>Built by Doug A. Carter</p> 
                         <p>All Rights Reserved.</p>
                     </div>
                 </nav>
+<!-- END SIDE NAVIGATION -->
+
+<!-- HOTEL VIEW -->
+                
                 <main class="hotel-view">
-                    Hotel View
+<!-- GALLERY IMAGES -->
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                           <img src="img/hotel-1.jpg" alt="photo of one hotel" class="gallery__photo"> 
+                        </figure>
+
+                        <figure class="gallery__item">
+                            <img src="img/hotel-2.jpg" alt="photo of hotel two" class="gallery__photo"> 
+                        </figure>
+                        
+                        <figure class="gallery__item">
+                            <img src="img/hotel-3.jpg" alt="photo of hotel three" class="gallery__photo"> 
+                        </figure>
+                    </div>
+
+<!-- OVERVIEW -->
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Hotel Las Palmas
+                        </h1>
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+<!-- LOCATION BAR -->
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline">Albufeira, Portugal</button>
+                        </div>
+<!-- RATING -->
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.6</div>
+                            <div class="overview__rating-count">429 votes</div>
+                        </div>
+                    </div>
+<!-- END OVERVIEW -->
+
+<!-- DETAILS -->
+                   <div class="detail">
+<!-- DESCRIPTION -->
+                       <div class="description">
+                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+                        </p>
+                        <p class="paragraph">Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.</p>
+                       
+                       <ul class="list">
+                           <li class="list__item">Close to the beach</li>
+                           <li class="list__item">Free airport shuttle</li>
+                           <li class="list__item">Breakfast included</li>
+                           <li class="list__item">free wifi in all rooms</li>
+                           <li class="list__item">Air conditioning and heating</li>
+                           <li class="list__item">Pets allowed</li>
+                           <li class="list__item">We speak all languages</li>
+                           <li class="list__item">perfect for families</li>
+                       </ul>
+                       <div class="recommend">
+                           <p class="recommend__count">
+                               Lucy and 3 friends recommend this hotel!
+                           </p>
+                           <div class="recommend__friends">
+                               <img src="img/user-3.jpg" alt="" class="recommend__photo">
+                               <img src="img/user-4.jpg" alt="" class="recommend__photo">
+                               <img src="img/user-5.jpg" alt="" class="recommend__photo">
+                               <img src="img/user-6.jpg" alt="" class="recommend__photo">
+                           </div>
+                       </div>
+                    </div>
+<!-- USER REVIEWS -->
+                       <div class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-1.jpg" alt="user 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Nick Smith</p>
+                                        <p class="review__user-date">July 12th, 2018</p>
+                                    </div>
+                                    <p class="review__rating">7.8</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-2.jpg" alt="user 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Nancy Diane</p>
+                                        <p class="review__user-date">June 11th, 2018</p>
+                                    </div>
+                                    <p class="review__rating">9.3</p>
+                                </figcaption>
+                            </figure>
+                           <button class="btn-inline btn-inline-two">Show all <span>&rarr;</span></button>
+                       </div>
+                   </div>  
+                   
+<!-- CALL TO ACTION -->
+                   <div class="cta">
+                        <h2 class="cta__book-now">
+                            Good news! We have 4 free rooms for your selected dates!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Book now</span>
+                            <span class="btn__invisible">Only 4 rooms left!</span> 
+                        </button>
+                    </div> 
                 </main>
             </div>
+<!-- END CONTENT -->
         </div>
+<!-- END MAIN CONTAINER -->
     </body>
 </html>
