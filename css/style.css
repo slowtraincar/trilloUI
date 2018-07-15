@@ -131,7 +131,7 @@ body {
       margin-bottom: 3rem; } }
   @media screen and (max-width: 31.25em) {
     .description {
-      font-size: 1.8rem;
+      font-size: 2.2rem;
       margin-bottom: .1rem; } }
 
 .user-reviews {
@@ -334,7 +334,7 @@ body {
         padding: 1.25rem 2rem; } }
     @media screen and (max-width: 31.25em) {
       .overview__heading {
-        font-size: 1.4rem;
+        font-size: 2.0rem;
         padding: .5rem .5rem; } }
   .overview__stars {
     flex: 1;
@@ -435,8 +435,8 @@ body {
   flex-wrap: wrap; }
   @media screen and (max-width: 31.25em) {
     .list {
-      padding: 0;
-      font-size: 1.4rem; } }
+      padding: 3rem 0;
+      font-size: 1.7rem; } }
   .list__item {
     flex: 0 0 50%;
     margin-bottom: .7rem; }
@@ -465,7 +465,7 @@ body {
   display: flex; }
   @media screen and (max-width: 31.25em) {
     .recommend {
-      font-size: 1.4rem; } }
+      font-size: 1.7rem; } }
   .recommend__count {
     margin-right: auto; }
   .recommend__friends {
@@ -493,7 +493,7 @@ body {
   @media screen and (max-width: 31.25em) {
     .review {
       margin-bottom: .1rem;
-      font-size: 1.5rem; } }
+      font-size: 1.8rem; } }
   .review__text {
     margin-bottom: 2rem;
     z-index: 10;
@@ -513,9 +513,15 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: .4rem; }
+    @media screen and (max-width: 31.25em) {
+      .review__user-name {
+        font-size: 1.5rem; } }
   .review__user-date {
     font-size: 1rem;
     color: var(--color-grey-dark-3); }
+    @media screen and (max-width: 31.25em) {
+      .review__user-date {
+        font-size: 1.5rem; } }
   .review__rating {
     font-size: 2.2rem;
     font-weight: 400;
